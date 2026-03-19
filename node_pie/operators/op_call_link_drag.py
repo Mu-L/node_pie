@@ -7,8 +7,8 @@ from bpy.types import Area, Context, Event, Node, NodeSocket, Region
 from gpu_extras.batch import batch_for_shader
 from gpu_extras.presets import draw_circle_2d
 from mathutils import Vector as V
+from ..socket_location import get_socket_location
 
-from ..bl_types import get_socket_location_ctypes
 from ..npie_btypes import BOperator
 from ..npie_constants import IS_4_0, IS_4_5
 from ..npie_drawing import draw_line
@@ -141,7 +141,7 @@ def get_socket_positions(node: Node) -> dict[NodeSocket, V]:
             #     continue
             if not socket.is_icon_visible:
                 continue
-            positions[socket] = get_socket_location_ctypes(socket)
+            positions[socket] = get_socket_location(socket)
         return positions
 
     if node.bl_idname in EXClUDED_NODES:

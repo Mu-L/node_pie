@@ -3,7 +3,7 @@ import ctypes
 from bpy.types import NodeSocket
 from mathutils import Vector as V
 
-from .npie_constants import IS_4_0, IS_WINDOWS
+from ..npie_constants import IS_4_0, IS_WINDOWS
 
 # Most of this is shamelessly stolen from VoronoiLinker
 # Which seems to be the product of brilliant Schizophrenia
