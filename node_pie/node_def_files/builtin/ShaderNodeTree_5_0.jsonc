@@ -16,7 +16,7 @@
           {
             "identifier": "GeometryNodeMenuSwitch",
             "after_node": "ShaderNodeMath"
-          },
+          }
         ]
       },
       "VECTOR": {
