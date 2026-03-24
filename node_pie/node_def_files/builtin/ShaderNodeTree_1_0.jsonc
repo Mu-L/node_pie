@@ -28,6 +28,7 @@
     "INPUT": {
       "label": "Input",
       "color": "input",
+      "icon": "TRACKING_FORWARDS_SINGLE",
       "nodes": [
         { "identifier": "ShaderNodeAmbientOcclusion" },
         { "identifier": "ShaderNodeAttribute" },
@@ -66,6 +67,7 @@
     "OUTPUT": {
       "label": "Output",
       "color": "output",
+      "icon": "OUTPUT",
       "nodes": [
         { "identifier": "ShaderNodeOutputAOV" },
         { "identifier": "ShaderNodeOutputLight" },
@@ -75,6 +77,7 @@
     "SHADER": {
       "label": "Shader",
       "color": "shader",
+      "icon": "SHADING_RENDERED",
       "nodes": [
         // A lot of shader nodes are not available in the world context
         { "identifier": "ShaderNodeAddShader" },
@@ -109,6 +112,7 @@
     "TEXTURE": {
       "label": "Texture",
       "color": "texture",
+      "icon": "TEXTURE",
       "nodes": [
         { "identifier": "ShaderNodeTexBrick" },
         { "identifier": "ShaderNodeTexChecker" },
@@ -130,6 +134,7 @@
     "COLOR": {
       "label": "Color",
       "color": "color",
+      "icon": "COLOR",
       "nodes": [
         { "identifier": "ShaderNodeBrightContrast" },
         { "identifier": "ShaderNodeGamma" },
@@ -156,6 +161,7 @@
     "VECTOR": {
       "label": "Vector",
       "color": "vector",
+      "icon": "ORIENTATION_GLOBAL",
       "nodes": [
         { "identifier": "ShaderNodeBump" },
         { "identifier": "ShaderNodeDisplacement" },
@@ -212,6 +218,7 @@
     "CONVERTOR": {
       "label": "Converter",
       "color": "converter",
+      "icon": "OPTIONS",
       "nodes": [
         { "identifier": "ShaderNodeBlackbody" },
         { "identifier": "ShaderNodeClamp" },
@@ -288,11 +295,13 @@
     "SCRIPT": {
       "label": "Script",
       "color": "script",
+      "icon": "FILE_TEXT",
       "nodes": [{ "identifier": "ShaderNodeScript" }]
     },
     "LAYOUT": {
       "label": "Layout",
       "color": "layout",
+      "icon": "OBJECT_HIDDEN",
       "nodes": [{ "identifier": "NodeFrame" }, { "identifier": "NodeReroute" }]
     }
   }

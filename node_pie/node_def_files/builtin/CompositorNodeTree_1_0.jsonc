@@ -12,6 +12,7 @@
     "INPUT": {
       "label": "Input",
       "color": "input",
+      "icon": "TRACKING_FORWARDS_SINGLE",
       "nodes": [
         { "identifier": "CompositorNodeBokehImage" },
         { "identifier": "CompositorNodeImage" },
@@ -29,6 +30,7 @@
     "OUTPUT": {
       "label": "Output",
       "color": "output",
+      "icon": "OUTPUT",
       "nodes": [
         { "identifier": "CompositorNodeComposite" },
         { "identifier": "CompositorNodeOutputFile" },
@@ -40,6 +42,7 @@
     "COLOR": {
       "label": "Color",
       "color": "color",
+      "icon": "COLOR",
       "nodes": [
         { "identifier": "CompositorNodeAlphaOver" },
         { "identifier": "CompositorNodeBrightContrast" },
@@ -70,6 +73,7 @@
     "CONVERTOR": {
       "label": "Converter",
       "color": "converter",
+      "icon": "OPTIONS",
       "nodes": [
         { "identifier": "CompositorNodePremulKey" },
         { "identifier": "CompositorNodeValToRGB" },
@@ -123,6 +127,7 @@
     "FILTER": {
       "label": "Filter",
       "color": "filter",
+      "icon": "MESH_GRID",
       "nodes": [
         { "identifier": "CompositorNodeAntiAliasing" },
         { "identifier": "CompositorNodeBilateralblur" },
@@ -145,6 +150,7 @@
     "VECTOR": {
       "label": "Vector",
       "color": "vector",
+      "icon": "ORIENTATION_GLOBAL",
       "nodes": [
         { "identifier": "CompositorNodeMapRange" },
         { "identifier": "CompositorNodeMapValue" },
@@ -156,6 +162,7 @@
     "MATTE": {
       "label": "Matte",
       "color": "matte",
+      "icon": "MOD_MASK",
       "nodes": [
         { "identifier": "CompositorNodeBoxMask" },
         { "identifier": "CompositorNodeChannelMatte" },
@@ -176,6 +183,7 @@
     "DISTORT": {
       "label": "Distort",
       "color": "distor",
+      "icon": "MOD_WARP",
       "nodes": [
         { "identifier": "CompositorNodeCornerPin" },
         { "identifier": "CompositorNodeCrop" },
@@ -195,6 +203,7 @@
     "LAYOUT": {
       "label": "Layout",
       "color": "layout",
+      "icon": "OBJECT_HIDDEN",
       "nodes": [{ "identifier": "NodeFrame" }, { "identifier": "NodeReroute" }]
     }
   }
